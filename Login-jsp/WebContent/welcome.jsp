@@ -16,6 +16,10 @@ if(session.getAttribute("name")==null ){
 
 %>
 	welcome ${name}
+	
+	<a href=vidoes.jsp> click here for vedioes</a>
+	
+	
 
 </body>
 </html>
