@@ -7,10 +7,21 @@
 <title>Insert title here</title>
 </head>
 <body>
+<%
+if(session.getAttribute("name")==null ){
+	response.sendRedirect("login.jsp");
+}
+%>
+x
 vedios :
+
 
 http://localhost:8080/Login-jsp/welcome.jsp 
 
+
+form action="Logout">
+	<input type="submit" value="logout">
+	</form>
 
 </body>
 </html>

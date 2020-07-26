@@ -19,6 +19,10 @@ if(session.getAttribute("name")==null ){
 	
 	<a href=vidoes.jsp> click here for vedioes</a>
 	
+	<form action="Logout">
+	<input type="submit" value="logout">
+	</form>
+	
 	
 
 </body>
