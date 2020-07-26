@@ -12,14 +12,17 @@ if(session.getAttribute("name")==null ){
 	response.sendRedirect("login.jsp");
 }
 %>
-x
+
 vedios :
 
 
-http://localhost:8080/Login-jsp/welcome.jsp 
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/gQLQ0t9B5yk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
-form action="Logout">
+
+
+<form action="Logout">
 	<input type="submit" value="logout">
 	</form>
 
