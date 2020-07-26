@@ -15,7 +15,7 @@ if(session.getAttribute("name")==null ){
 }
 
 %>
-welcome
+	welcome ${name}
 
 </body>
 </html>
